@@ -177,6 +177,8 @@ namespace TicTacToe
                 case "1":
                     goto StartPoint;                    
                 case "2":
+                    Console.ForegroundColor = "Red";
+                    Console.WriteLine("Game made by Viktor!");
                     break;
                 default:
                     Console.ForegroundColor = ConsoleColor.DarkYellow;
